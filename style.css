@@ -1,0 +1,116 @@
+/* Global page font */
+body {
+    font-family: Cambria;
+    padding: 1em;
+    text-align: center;
+    background-color: #f2f0ef;
+}
+
+/* Title */
+h1 {
+    font-size: 3.5em;
+    margin: 0.25em 6em;
+    text-align: left;
+}
+
+/* Author and Date */
+h2 {
+    font-size: 2em;
+    margin: 0.5em 10.5em;
+    text-align: left;
+    font-weight: normal;
+}
+
+/* Subtitles */
+h3 {
+    font-size: 2em;
+    margin: 0.5em 14.75em;
+    text-align: left;
+}
+
+/* Chart header */
+h4 {
+    font-size: 1.5em;
+    margin: 1em 0em 0.25em;
+}
+
+/* Paragraph */
+p {
+    font-size: 1.2em;
+    margin: 1em 25em;
+    text-align: left;
+}
+
+/* Image Source */
+.image-source {
+    font-size: 1em;
+    margin: 0.5em 21em;
+}
+
+/* References List */
+.references {
+    padding-left: 3em;
+    text-indent: -3em;
+    margin-bottom: 1em;
+}
+
+/* Link */
+a {
+  color: #3985d0;
+}
+
+/* Chart Source */
+.source{
+    font-size: 0.75em;
+    fill: black;
+}
+
+
+/* Axes */
+.axis path, 
+.axis line{
+    stroke: black;
+}
+
+.axis text{
+    font-size: 12px;
+    fill: black;
+    }
+
+.label{
+    font-size: 16px;
+    fill: black;
+    font-weight: bold;
+}
+
+
+/* Lines */
+.lineDistracted {
+    fill: none; 
+    stroke: #e33719;
+    stroke-width: 3px;
+}
+
+.lineSpeeding {
+    fill: none; 
+    stroke: #f5a031;
+    stroke-width: 3px;
+}
+
+.lineAlcohol {
+    fill: none; 
+    stroke: #569ae8;
+    stroke-width: 3px;
+}
+
+.lineDrugs {
+    fill: none; 
+    stroke: #70bf52;
+    stroke-width: 3px;
+}
+
+.lineDrowsy {
+    fill: none; 
+    stroke: #ba6ded;
+    stroke-width: 3px;
+}
